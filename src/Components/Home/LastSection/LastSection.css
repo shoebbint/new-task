@@ -1,0 +1,11 @@
+.list li{
+    color: #8C8C8C;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H5 */
+font-family: "Avenir LT Std";
+font-size: 22.78px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
