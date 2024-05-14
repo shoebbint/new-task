@@ -1,0 +1,11 @@
+.foot p{
+    color: #000;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* Large p */
+font-family: "Avenir LT Std";
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 156.5%; /* 28.17px */
+}

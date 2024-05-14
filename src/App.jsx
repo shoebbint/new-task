@@ -1,7 +1,8 @@
 
 import './App.css'
-import FirstSection from './Components/FirstSection/FirstSection'
-import SecondSection from './Components/SecondSection/SecondSection'
+import FirstSection from './Components/Home/FirstSection/FirstSection'
+import SecondSection from './Components/Home/SecondSection/SecondSection'
+import Footer from './Components/Shared/Footer/Footer'
 import Header from './Components/Shared/Header/Header'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   <Header></Header>
   <FirstSection className=''></FirstSection>
   <SecondSection></SecondSection>
-  <h1 className='text-3xl font-bold underline'>hello world</h1>
+  <Footer></Footer>
 </div>
   )
 }
