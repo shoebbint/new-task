@@ -1,0 +1,30 @@
+.sec-bg{
+    background-color: 
+    #FFF3E9;
+}
+.sec-p{
+    color: #565656;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H2 */
+font-family: "Avenir LT Std";
+font-size: 32.443px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.sec-h{
+    font-variant-numeric: lining-nums tabular-nums;
+font-family: "Avenir LT Std";
+font-size: 80.49px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.gradient-text {
+    background-image: linear-gradient(90deg, #F24397 0.17%, #F64C3B 105.5%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  

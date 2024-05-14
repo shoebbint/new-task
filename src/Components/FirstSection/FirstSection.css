@@ -1,0 +1,38 @@
+.bg-img{
+
+
+}
+.first-h1{
+    color: #000;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H1 */
+font-family: "Avenir LT Std";
+font-size: 36.49px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.first-p{
+    color: var(--grey, #4D4D4D);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Avenir LT Std";
+    font-size: 22.78px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; 
+}
+.p2{
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Avenir LT Std";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 156.5%; 
+    background: var(--GradientText, linear-gradient(90deg, #F24397 0.17%, #F64C3B 105.5%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+    
+}
