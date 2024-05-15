@@ -1,0 +1,17 @@
+/* Ensure the Swiper container has a defined height */
+.swiper-container-wrapper {
+    height: 400px; /* or any height you need */
+    position: relative;
+  }
+  
+  .swiper-vertical {
+    height: 100%; /* Make the Swiper take the full height of the wrapper */
+  }
+  
+  .swiper-vertical  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure slides take the full height of the Swiper */
+  }
+  

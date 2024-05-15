@@ -28,9 +28,13 @@ const ThirdSection = () => {
     <div className="px-36 py-20">
       <h1 className="first-h1">Schedule</h1>
       <div className="grid grid-cols-2 gap-20">
-<div>
-    <img style={{width:"495.365px",height:"472.089px"}} src={img}alt="" />
-</div>
+        <div>
+          <img
+            style={{ width: "495.365px", height: "472.089px" }}
+            src={img}
+            alt=""
+          />
+        </div>
         <div>
           <div className=" flex justify-between pb-10">
             <div className="flex justify-start ">
@@ -49,23 +53,22 @@ const ThirdSection = () => {
             slidesPerView={1}
             spaceBetween={30}
             loop={true}
-            pagination={{
-              clickable: true,
-            }}
             navigation={{
               nextEl: ".custom-next",
               prevEl: ".custom-prev",
             }}
             modules={[Pagination, Navigation]}
-            className="mySwiper border-2"
+            className="mySwiper"
           >
-            <SwiperSlide>
-              <img
-                className="mx-auto"
-                style={{ width: "475.673px", height: "283.118px" }}
-                src={img1}
-                alt=""
-              />
+            <SwiperSlide className="flex flex-col text-left">
+              <div className=" ">
+                <img
+                  className="mx-auto"
+                  style={{ width: "475.673px", height: "283.118px" }}
+                  src={img1}
+                  alt=""
+                />
+              </div>
               <div className="pt-10">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

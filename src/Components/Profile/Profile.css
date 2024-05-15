@@ -1,0 +1,31 @@
+.title{
+    padding-bottom: 15px;
+    color: #000;
+    opacity: 0.5;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: Roboto;
+font-size: 25.6px;
+font-style: normal;
+font-weight: 700;
+line-height: 156.5%; /* 40.064px */
+}
+.edit{
+    color: var(--dark-pink, #F24397);
+font-variant-numeric: lining-nums tabular-nums;
+font-family: Roboto;
+font-size: 25.6px;
+font-style: normal;
+font-weight: 300;
+line-height: 156.5%; /* 40.064px */
+text-decoration-line: underline;
+}
+.text p{
+    color: #000;
+    opacity: 0.65;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Avenir LT Std";
+font-size: 25.6px;
+font-style: normal;
+font-weight: 300;
+line-height: 156.5%; /* 40.064px */
+}

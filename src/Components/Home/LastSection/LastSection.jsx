@@ -10,15 +10,16 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import { useRef } from "react";
+import SwiperVertical from "./SwiperVertical/SwiperVertical";
 
 const LastSection = () => {
-  const nextSlide = () => {
+  const nextSlider = () => {
     if (swiperRef && swiperRef.current) {
       swiperRef.current.slideNext();
     }
   };
   const swiperRef = useRef(null);
-  const prevSlide = () => {
+  const prevSlider = () => {
     if (swiperRef && swiperRef.current) {
       swiperRef.current.slidePrev();
     }
@@ -27,29 +28,20 @@ const LastSection = () => {
     <div className="grid grid-cols-3 gap-20 py-20 px-36">
       
       <div>
-        <ul className="text-3xl list">
-            <li>Sunil K</li>
-            <li>Rahul</li>
-            <li>Ashray M</li>
-            <li>Ashray</li>
-            <li>Ashish</li>
-            <li>Xinia</li>
-        </ul>
+        <SwiperVertical></SwiperVertical>
       </div>
       <div className="col-span-2">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
           loop={true}
-          pagination={{
-            clickable: true,
-          }}
+
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiper border-2"
+          className="mySwiper "
         >
           <SwiperSlide>
             <img
@@ -68,10 +60,10 @@ const LastSection = () => {
           <SwiperSlide>Slide 3</SwiperSlide>
         </Swiper>
         <div className="flex justify-end">
-          <button className=" custom-prev" onClick={prevSlide}>
+          <button className=" custom-prev" onClick={prevSlider}>
             <img src={left} alt="" />
           </button>
-          <button className=" custom-next" onClick={nextSlide}>
+          <button className=" custom-next" onClick={nextSlider}>
             <img src={right} alt="" />
           </button>
         </div>
