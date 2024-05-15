@@ -8,4 +8,14 @@ body {
   font-family: "Avenir LT Std", sans-serif;
   font-variant-numeric: lining-nums tabular-nums;
 }
+/* In your CSS file */
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../public/fonts/AvenirLTStd-Light.otf') format('truetype'); /* Adjust the path to your font file */
+}
+
+body {
+  font-family: 'Avenir LT Std', sans-serif; /* Use the imported font */
+}
+
 

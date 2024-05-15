@@ -49,8 +49,8 @@ const Footer = () => {
             {" "}
             <p className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              vitae facilisis lorem. Integer non pharetra mauris, non tincidunt
-              metus. Aenean in lectus diam...{" "}
+              vitae <br />  facilisis lorem. Integer non pharetra mauris, non tincidunt
+              metus. <br /> Aenean in lectus diam...{" "}
             </p>
           </div>
         </div>
