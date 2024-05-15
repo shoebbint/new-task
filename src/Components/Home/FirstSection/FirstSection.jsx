@@ -13,8 +13,9 @@ const FirstSection = () => {
             controls
             autoPlay
             loop
+    
           >
-            <source src="path_to_your_video_file.mp4" type="video/mp4" />
+            <source src="https://youtu.be/v7SN-d4qXx0?si=TpZEkTNWxs1I5qh6" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
