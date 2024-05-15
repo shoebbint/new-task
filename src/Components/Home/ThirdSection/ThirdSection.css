@@ -7,7 +7,16 @@
     height: 100%;
   }
 
-
+.join{
+  color: #F64C3B ;
+  padding-top: 5px;
+  font-variant-numeric: lining-nums tabular-nums;
+font-family: "Avenir LT Std";
+font-size: 22.78px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%; /* 36.448px */
+}
   body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;

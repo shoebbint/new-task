@@ -1,7 +1,7 @@
 import "./FirstSection.css";
 const FirstSection = () => {
   return (
-    <div className=" md:px-36 py-10 ">
+    <div className=" md:px-36 py-10 bg-first">
       <h1 className="first-h1">Yoga for Flat Abs</h1>
       <p className="first-p">90 Days program</p>
       <div className="grid md:grid-cols-2 gap-10 mt-5">
@@ -31,15 +31,18 @@ const FirstSection = () => {
           </div>
         </div>
         <div className="px-10">
+          
           <div role="tablist" className="tabs tabs-bordered">
             <input
               type="radio"
               name="my_tabs_1"
               role="tab"
-              className="tab gradient-text "
+              className="tab tab-text"
               aria-label="Details"
+              style={{ color: '#FE5266' }} 
             />
-            <div role="tabpanel" className="tab-content">
+
+            <div role="tabpanel" className="tab-content ">
               {" "}
               <p className="py-6 para">
                 Choose a quiet space so that you can do the session
@@ -56,6 +59,7 @@ const FirstSection = () => {
               className="tab "
               aria-label="Techniques"
               checked
+             
             />
             <div role="tabpanel" className="tab-content ">
               {" "}

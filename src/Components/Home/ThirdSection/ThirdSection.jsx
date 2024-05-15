@@ -354,7 +354,7 @@ const ThirdSection = () => {
                   </p>
                 </div>
               </SwiperSlide>
-
+<button className="join">Join Today</button>
             </Swiper>
           </div>
         </div>

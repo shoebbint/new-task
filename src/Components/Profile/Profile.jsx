@@ -2,7 +2,7 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="py-10 px-4 sm:px-6 md:px-48">
+    <div className="py-10 px-4 sm:px-6 md:px-48 bg-last">
       <div className="text-4xl md:text-5xl lg:text-6xl text-center">
         <h1>
           MY <span className="gradient-text">ACCOUNT</span>

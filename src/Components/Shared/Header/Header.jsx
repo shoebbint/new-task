@@ -7,10 +7,10 @@ const Header = () => {
         <div className="flex-none ms-auto menu-text md:w-96">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>About Us</a>
+              <Link to={"/"}>About Us</Link>
             </li>
             <li>
-              <a>Our Programs</a>
+              <Link to={"/"}>Our Programs</Link>
             </li>
           </ul>
 

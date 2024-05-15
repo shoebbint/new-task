@@ -1,7 +1,24 @@
-.bg-img{
-
-
-}
+.tab-label {
+    color: red; /* Change the text color of the label */
+  }
+  .bg-first {
+    position: relative;
+  }
+  
+  .bg-first::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -25%;
+    left:200;
+    background: url("https://s3-alpha-sig.figma.com/img/f648/5bd1/b3ded1c88aeba7de6a4ab9ac06465bd7?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cDoEArOilluq2m~bB-0nb3Svryh7ZfzVIHvdW-jrFdiUPV8Klr96JoiiKKHr3jZPlDT~4Q0QVn1iazrmjOwkWvEaGasNbWP3brSXRtWVK2~BgKrLky9-0F0DaUQ-Qfk669qychoct7nj1CnqMjmRcD490xK5b5OEW9nhj3zs~sGw-6q5FnJnOdnEguEIz~wOx1zrMlER~3VSkTCdfrM32o9YTO0QLRo4JbCQvj4so2bNvlMIfweJgMXi28G0bwagi30ywgqdsOUaVJD77K-H-nsNW2tZvrH5q1fl~QaEKuIsiRibTgSQJbVtgiOlHm06Hs6LHb4rg5PXbGZeo0SeMw__");
+    background-size: contain;
+    width: 700px;
+    height: 650px;
+    background-repeat: no-repeat;
+    opacity: 0.1; /* Adjust the opacity here */
+  }
+  
 .first-h1{
     color: #000;
 font-variant-numeric: lining-nums tabular-nums;
