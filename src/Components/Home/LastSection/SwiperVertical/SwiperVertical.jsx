@@ -28,6 +28,7 @@ const SwiperVertical = () => {
         <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Ashray</h1></SwiperSlide>
         <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Ashish</h1></SwiperSlide>
         <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Xinia</h1></SwiperSlide>
+        <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>inaya</h1></SwiperSlide>
       </Swiper>
 
     </div>

@@ -3,6 +3,7 @@
   }
   .bg-first {
     position: relative;
+    overflow: hidden; 
   }
   
   .bg-first::before {

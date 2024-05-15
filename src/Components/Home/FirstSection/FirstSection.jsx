@@ -71,8 +71,8 @@ const FirstSection = () => {
           </div>
           <div className="pt-8">
             <p className="pb-8 p2 gradient-text">AED 99/-</p>
-            <div className="flex">
-              <button className="btn text-white rounded-full bg-gradient-to-r from-pink-500 to-red-500 pe-5">
+            <div className="flex ">
+              <button className="btn text-white rounded-full bg-gradient-to-r from-pink-500 to-red-500 me-5 ">
                 Join now{" "}
               </button>
               <button className="  hover:text-white btn btn-outline btn-error rounded-full">

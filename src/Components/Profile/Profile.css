@@ -11,6 +11,7 @@ line-height: 156.5%; /* 40.064px */
 }
 .bg-last {
     position: relative;
+    overflow: hidden;
   }
   
   .bg-last::before {

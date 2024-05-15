@@ -3,6 +3,26 @@
     #FFF3E9;
     height:80px;
 }
+.about-link{
+    color: #000;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* Para */
+font-family: "Avenir LT Std";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 156.5%; /* 25.04px */
+}
+.some{
+color: #000;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Avenir LT Std";
+font-size: 22.78px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
 .menu-text{
     color: #000;
 font-variant-numeric: lining-nums tabular-nums;

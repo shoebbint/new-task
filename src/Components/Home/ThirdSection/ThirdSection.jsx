@@ -13,7 +13,7 @@ import { useRef, useState } from "react";
 
 const ThirdSection = () => {
   const [day, setDay] = useState(1);
-  const [currentNode, setCurrentNode] = useState(0); // Current node index
+  const [currentNode, setCurrentNode] = useState(0); 
   const nodePositions = [
     { x: 38, y: 240 },
     { x: 50, y: 360 },
@@ -39,7 +39,6 @@ const ThirdSection = () => {
       setCurrentNode(currentNode - 1);
       setDay(prevDay => prevDay - 1);
     }
-
     if (swiperRef && swiperRef.current) {
       swiperRef.current.slidePrev();
     }
@@ -113,8 +112,8 @@ const ThirdSection = () => {
                 nextEl: ".custom-next",
                 prevEl: ".custom-prev",
               }}
-              modules={[Pagination, Navigation]}
-              className="mySwiper bg-transparent "
+              modules={[Pagination,Navigation]}
+              className="mySwiper bg-transparent"
             >
               <SwiperSlide className=" text-left ">
                 <div className=" ">
@@ -354,6 +353,7 @@ const ThirdSection = () => {
                   </p>
                 </div>
               </SwiperSlide>
+
 <button className="join">Join Today</button>
             </Swiper>
           </div>

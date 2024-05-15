@@ -7,10 +7,10 @@ const Header = () => {
         <div className="flex-none ms-auto menu-text md:w-96">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to={"/"}>About Us</Link>
+              <Link className="about-link" to={"/"}>About Us</Link>
             </li>
             <li>
-              <Link to={"/"}>Our Programs</Link>
+              <Link className="about-link" to={"/"}>Our Programs</Link>
             </li>
           </ul>
 
@@ -29,17 +29,21 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to="/profile"> Profile</Link>
+                <Link className="some border-b"  to="/profile"> Dashboard</Link>
               </li>
               <li>
-                <a>Settings</a>
+                <Link className="some border-b" to="/profile"> Bookmarks</Link>
               </li>
               <li>
-                <a>Logout</a>
+                <Link className="some border-b" to="/profile"> My Account</Link>
               </li>
+              <li>
+                <Link className="some border-b" to="/profile"> Log Out</Link>
+              </li>
+
             </ul>
           </div>
         </div>
