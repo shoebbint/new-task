@@ -29,14 +29,14 @@ const LastSection = () => {
 <div className="md:px-36 text-center md:text-left">
           <h1 className="first-h1 ">Our Teachers</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 ">
-        <div>
+        <div className="flex items-center">
           <SwiperVertical className=""></SwiperVertical>
         </div>
         <div className="col-span-2">
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
-            loop={true}
+            loop={false}
             navigation={{
               nextEl: ".custom-next",
               prevEl: ".custom-prev",

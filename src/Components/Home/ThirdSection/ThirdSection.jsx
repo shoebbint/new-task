@@ -1,6 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import img1 from "../../../assets/Rectangle 88.png";
 import bgImage from "../../../assets/Frame (1).png";
 import left from "../../../assets/left.png";
 import right from "../../../assets/right.png";
@@ -14,6 +12,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import { useRef, useState } from "react";
 
 const ThirdSection = () => {
+  const [day, setDay] = useState(1);
   const [currentNode, setCurrentNode] = useState(0); // Current node index
   const nodePositions = [
     { x: 38, y: 240 },
@@ -28,6 +27,7 @@ const ThirdSection = () => {
   const nextSlide = () => {
     if (currentNode < nodePositions.length - 1) {
       setCurrentNode(currentNode + 1);
+      setDay(prevDay => prevDay + 1);
     }
     if (swiperRef && swiperRef.current) {
       swiperRef.current.slideNext();
@@ -37,6 +37,7 @@ const ThirdSection = () => {
   const prevSlide = () => {
     if (currentNode > 0) {
       setCurrentNode(currentNode - 1);
+      setDay(prevDay => prevDay - 1);
     }
 
     if (swiperRef && swiperRef.current) {
@@ -92,7 +93,7 @@ const ThirdSection = () => {
         <div>
           <div className=" md:flex justify-between pb-10">
             <div className="flex justify-start ">
-              <h1 className="first-h1">Day 1- Class </h1>
+              <h1 className="first-h1">Day {day}- Class </h1>
             </div>
             <div className="flex justify-end">
               <button className=" custom-prev" onClick={prevSlide}>
@@ -117,7 +118,29 @@ const ThirdSection = () => {
             >
               <SwiperSlide className=" text-left ">
                 <div className=" ">
-                  <img className="" src={img1} alt="" />
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              src="https://www.youtube.com/embed/FdyhENXyIQ4?si=Mimqq47HEOc72hjO"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
                 </div>
                 <div className="pt-10 sm:mx-auto">
                   <p>
@@ -129,7 +152,29 @@ const ThirdSection = () => {
               </SwiperSlide>
               <SwiperSlide className=" text-left ">
                 <div className=" ">
-                  <img className="" src={img1} alt="" />
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              src="https://www.youtube.com/embed/dAqQqmaI9vY?si=c-YJr3B2_8sueGqk"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
                 </div>
                 <div className="pt-10 sm:mx-auto">
                   <p>
@@ -141,7 +186,29 @@ const ThirdSection = () => {
               </SwiperSlide>
               <SwiperSlide className=" text-left ">
                 <div className=" ">
-                  <img className="" src={img1} alt="" />
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+            src="https://www.youtube.com/embed/nQwKKCqkJxg?si=KUOg9edH1umE8brA"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
                 </div>
                 <div className="pt-10 sm:mx-auto">
                   <p>
@@ -153,7 +220,29 @@ const ThirdSection = () => {
               </SwiperSlide>
               <SwiperSlide className=" text-left ">
                 <div className=" ">
-                  <img className="" src={img1} alt="" />
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              src="https://www.youtube.com/embed/m756Gz8de4M?si=uwdWV90wyN9bFPxC"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
                 </div>
                 <div className="pt-10 sm:mx-auto">
                   <p>
@@ -165,7 +254,29 @@ const ThirdSection = () => {
               </SwiperSlide>
               <SwiperSlide className=" text-left ">
                 <div className=" ">
-                  <img className="" src={img1} alt="" />
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              src="https://www.youtube.com/embed/uJZ6hmnjrOs?si=txwpi27YGySxUkk2"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
                 </div>
                 <div className="pt-10 sm:mx-auto">
                   <p>
@@ -177,7 +288,29 @@ const ThirdSection = () => {
               </SwiperSlide>
               <SwiperSlide className=" text-left ">
                 <div className=" ">
-                  <img className="" src={img1} alt="" />
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+             src="https://www.youtube.com/embed/149Iac5fmoE?si=ATSNKzLxgEvbejX_"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
                 </div>
                 <div className="pt-10 sm:mx-auto">
                   <p>
@@ -187,6 +320,41 @@ const ThirdSection = () => {
                   </p>
                 </div>
               </SwiperSlide>
+              <SwiperSlide className=" text-left ">
+                <div className=" ">
+                <div
+            style={{
+              position: "relative",
+              width: "100%",
+              paddingBottom: "56.25%" /* 16:9 aspect ratio */,
+            }}
+          >
+            <iframe
+              className="rounded-[16px]"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              src="https://www.youtube.com/embed/6hZIzMpHl-c?si=RSr7yxAxpTi7gWpu"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+                </div>
+                <div className="pt-10 sm:mx-auto">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </SwiperSlide>
+
             </Swiper>
           </div>
         </div>

@@ -14,4 +14,17 @@
     align-items: center;
     height: 100%; /* Ensure slides take the full height of the Swiper */
   }
-  
+/* SwiperComponent.css */
+/* Style for active slide */
+.swiper-slide-active .bullet {
+  color: #FE5266;
+  width: 10px; /* Bullet width */
+  height: 10px; /* Bullet height */
+  background-color: #FE5266; /* Red bullet color */
+  border-radius: 50%; /* Shape the bullet as a circle */
+
+ 
+}
+.swiper-slide-active h1{
+  color: #FE5266;
+}

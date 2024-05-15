@@ -20,14 +20,14 @@ const SwiperVertical = () => {
             prevEl: ".custom-prev",
           }}
         modules={[Pagination, Navigation]}
-        className="swiper-vertical   text-3xl list"
+        className="swiper-vertical   text-4xl list"
       >
-        <SwiperSlide>Sunil K</SwiperSlide>
-        <SwiperSlide>Rahul</SwiperSlide>
-        <SwiperSlide>Ashray M</SwiperSlide>
-        <SwiperSlide>Ashray</SwiperSlide>
-        <SwiperSlide>Ashish</SwiperSlide>
-        <SwiperSlide>Xinia</SwiperSlide>
+        <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Sunil K</h1></SwiperSlide>
+        <SwiperSlide className='flex'> <div className="bullet me-3"></div><h1>Rahul</h1></SwiperSlide>
+        <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Ashray M</h1></SwiperSlide>
+        <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Ashray</h1></SwiperSlide>
+        <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Ashish</h1></SwiperSlide>
+        <SwiperSlide className='flex'><div className="bullet me-3"></div><h1>Xinia</h1></SwiperSlide>
       </Swiper>
 
     </div>
