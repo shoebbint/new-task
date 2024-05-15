@@ -4,5 +4,8 @@
 .app{
   background-color: #FDF8F4;
 }
-
+body {
+  font-family: "Avenir LT Std", sans-serif;
+  font-variant-numeric: lining-nums tabular-nums;
+}
 
