@@ -1,13 +1,13 @@
 import "./FirstSection.css";
 const FirstSection = () => {
   return (
-    <div className="bg-img  mx-36 my-10">
+    <div className=" md:px-36 py-10 ">
       <h1 className="first-h1">Yoga for Flat Abs</h1>
       <p className="first-p">90 Days program</p>
-      <div className="grid grid-cols-2 gap-12 mt-5">
+      <div className="grid md:grid-cols-2 gap-10 mt-5">
         <div>
           <video
-            className="border-rounded"
+            className="rounded-[16px]"
             width="635"
             height="399"
             controls
@@ -18,18 +18,18 @@ const FirstSection = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div >
+        <div className="px-10">
           <div role="tablist" className="tabs tabs-bordered">
             <input
               type="radio"
               name="my_tabs_1"
               role="tab"
-              className="tab gradient-text"
+              className="tab gradient-text "
               aria-label="Details"
             />
             <div role="tabpanel" className="tab-content">
               {" "}
-              <p className="py-6">
+              <p className="py-6 para">
                 Choose a quiet space so that you can do the session
                 uninterrupted. Make sure there is at least 2 hours gap between a
                 meal and the class. Put all other devices aside and enjoy the
@@ -47,7 +47,7 @@ const FirstSection = () => {
             />
             <div role="tabpanel" className="tab-content ">
               {" "}
-              <p className="py-6">
+              <p className="py-6 para">
                 Choose a quiet space so that you can do the session
                 uninterrupted. Make sure there is at least 2 hours gap between a
                 meal and the class. Put all other devices aside and enjoy the
@@ -55,10 +55,10 @@ const FirstSection = () => {
               </p>
             </div>
           </div>
-<div className="mt-20">
-<p className="mb-8 p2 gradient-text">AED 99/-</p>
+<div className="pt-8">
+<p className="pb-8 p2 gradient-text">AED 99/-</p>
           <div className="flex">
-            <button className="btn text-white rounded-full bg-gradient-to-r from-pink-500 to-red-500 me-5">Join now </button>
+            <button className="btn text-white rounded-full bg-gradient-to-r from-pink-500 to-red-500 pe-5">Join now </button>
             <button className="  hover:text-white btn btn-outline btn-error rounded-full">View Schedule</button>
           </div>
 </div>

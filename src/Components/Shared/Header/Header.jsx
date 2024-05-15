@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
     <div>
       <div className="navbar header-bg">
-        <div className="flex-none ms-auto menu-text w-96">
+        <div className="flex-none ms-auto menu-text md:w-96">
           <ul className="menu menu-horizontal px-1">
             <li>
               <a>About Us</a>
@@ -31,10 +32,7 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
+                <Link to="/profile"> Profile</Link>
               </li>
               <li>
                 <a>Settings</a>

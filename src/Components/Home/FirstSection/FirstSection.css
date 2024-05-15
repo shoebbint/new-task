@@ -13,6 +13,15 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 }
+.para{
+    color: #000;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Avenir LT Std";
+font-size: 20.25px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%; /* 32.4px */
+}
 .first-p{
     color: var(--grey, #4D4D4D);
     font-variant-numeric: lining-nums tabular-nums;

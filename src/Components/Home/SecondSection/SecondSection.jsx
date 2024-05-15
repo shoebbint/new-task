@@ -3,8 +3,8 @@ import "./SecondSection.css";
 const SecondSection = () => {
   return (
     <div className="sec-bg">
-      <div className="bg-img  px-36 my-10">
-        <div className="grid grid-cols-2 gap-20 mt-5 ">
+      <div className="bg-img  md:px-36 my-10">
+        <div className="grid md:grid-cols-2 gap-20 mt-5 ">
           <div className="flex  items-center ">
             <div>
               <h1 className="first-h1">Structure of program</h1>

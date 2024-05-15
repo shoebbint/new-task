@@ -2,13 +2,13 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="py-10">
-      <div className="text-7xl text-center ">
+    <div className="py-10 px-4 sm:px-6 md:px-48">
+      <div className="text-4xl md:text-5xl lg:text-6xl text-center">
         <h1>
           MY <span className="gradient-text">ACCOUNT</span>
         </h1>
       </div>
-      <div className="flex justify-center py-10">
+      <div className="flex items-center justify-center py-10">
         <img
           style={{ width: "200px", height: "200px" }}
           className="rounded-full"
@@ -16,28 +16,28 @@ const Profile = () => {
           alt=""
         />
       </div>
-      <div className="text px-52 text-3xl">
+      <div className="text-center md:text-left text-lg">
         <h1 className="title">Name</h1>
-        <div className="flex justify-between pb-5">
+        <div className="flex items-center justify-between pb-5">
           <p>Arjun N</p>
           <h2 className="edit">Edit</h2>
         </div>
         <h1 className="title">Email</h1>
-        <div className="flex justify-between pb-5">
+        <div className="flex items-center justify-between pb-5">
           <p>arjun@gmail.com</p>
           <h2 className="edit">Edit</h2>
         </div>
         <h1 className="title">Phone</h1>
-        <div className="flex justify-between pb-5">
+        <div className="flex items-center justify-between pb-5">
           <p>9826369270</p>
           <h2 className="edit">Edit</h2>
         </div>
-        <div className="flex justify-between pb-5">
+        <div className="flex items-center justify-between pb-5">
           <p>Password</p>
           <p>Change password</p>
         </div>
-        <h1 className="text-center title">Subscription Details </h1>
-        <div className="flex justify-between pb-5">
+        <h1 className="text-center title">Subscription Details</h1>
+        <div className="flex items-center justify-between pb-5">
           <p>1 Year membership for 750 INR</p>
           <h2 className="edit">Change plan</h2>
         </div>
@@ -45,8 +45,8 @@ const Profile = () => {
           Started on: 13-11-2020 <br />
           Valid till: 13-11-2021
         </p>
-        <h1 className="text-center title">Subscription history </h1>
-        <h1 className="title">Referral Details </h1>
+        <h1 className="text-center title">Subscription history</h1>
+        <h1 className="title">Referral Details</h1>
         <div className="">
           <p className="p">
             Share your referral code and earn cash credits for each friend that
@@ -54,7 +54,7 @@ const Profile = () => {
             5 USD credit.
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex items-center justify-between">
           <p className="p">Referral Code: HSAGBWBDAV</p>
           <h2 className="edit">Copy</h2>
         </div>

@@ -3,18 +3,18 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="sec-bg">
-      <footer className="py-10 px-36">
-        <div className="flex justify-between border-b border-black pb-5 items-center">
-          <div>
+      <footer className="py-10 md:px-36 text-center md:text-left ">
+        <div className="md:flex justify-between border-b border-black pb-5 items-center">
+          <div className="">
             <h1 className="text-3xl mb-5">Let’s talk</h1>
             <h1 className="first-h1">Book an appointment?</h1>
           </div>
           <div className="foot">
-            <div className="flex justify-center items-center pb-5">
+            <div className="md:flex justify-center items-center pb-5">
               <div className="me-5">
                 <p className="">someone@example.com </p>
               </div>
-              <div>
+              <div className=" flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -30,11 +30,11 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center justify-end ">
+            <div className="md:flex justify-center items-center justify-end ">
               <div className="ms-auto">
                 <p>          +91- 385 526 5060</p>
               </div>
-              <div className="ms-auto">
+              <div className="ms-auto flex justify-center">
                 <img  width="24"
                   height="24"                 
                   src="https://s3-alpha-sig.figma.com/img/ad84/f197/29e1b451b2c0024d6473d1ed920ed9a9?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f4~S8yJSmAMkAOocpg8De3jhMFgyhn33axh4xdiM7f~gJKxv37wuk5jwciD9RhlS52qwsRY43DYM9QDCTC4Xd9BXhqeMXX7WgeAoumXJCYl~xE9hKSCXr~qqYuIagAvvGTXyj80BDlwzQOxI0dCP5LU2MErXwj0imjNyPFwhE6TjSi5Q9Fqgh7sxwY6CrUTyhNum-10XVXrxt3-U2QVfSTG5zddx4Oy-3AQkbebgeQg5A3nATbVbvxtl8lDTzxkgl8yr5XWxqhDX19DN1gaNu-dbUUFunoz5naJJ-9Dk0vjPQ62OuTHWDADHeSGyKUxZbMM5c9K6RF7FDCbl1XEJWw__"
@@ -44,10 +44,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 mb-24 pt-5">
-          <div>
+        <div className="md:grid grid-cols-2 mb-24 pt-5">
+          <div className="">
             {" "}
-            <p>
+            <p className="">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               vitae facilisis lorem. Integer non pharetra mauris, non tincidunt
               metus. Aenean in lectus diam...{" "}
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className="footer px-10 py-8 border-t bg-black text-white border-base-300">
+      <footer className="footer  px-10 py-8 border-t bg-black text-white border-base-300">
         <div className="   flex items-center justify-center mx-auto">
           <p className="me-5">© 2021 Copyright - Artistic yoga </p>
           <ul className="flex items-center justify-center list-disc">

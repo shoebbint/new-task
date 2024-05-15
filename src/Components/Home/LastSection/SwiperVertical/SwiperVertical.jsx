@@ -8,7 +8,7 @@ import "./SwiperVertical.css";
 
 const SwiperVertical = () => {
   return (
-    <div className="swiper-container-wrapper">
+    <div className="swiper-container-wrapper ">
       <Swiper
       loop={true}
         direction="vertical"
@@ -20,7 +20,7 @@ const SwiperVertical = () => {
             prevEl: ".custom-prev",
           }}
         modules={[Pagination, Navigation]}
-        className="swiper-vertical text-3xl list"
+        className="swiper-vertical   text-3xl list"
       >
         <SwiperSlide>Sunil K</SwiperSlide>
         <SwiperSlide>Rahul</SwiperSlide>

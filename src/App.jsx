@@ -1,12 +1,10 @@
 
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import FirstSection from './Components/Home/FirstSection/FirstSection'
-import LastSection from './Components/Home/LastSection/LastSection'
-import SecondSection from './Components/Home/SecondSection/SecondSection'
-import ThirdSection from './Components/Home/ThirdSection/ThirdSection'
 import Profile from './Components/Profile/Profile'
 import Footer from './Components/Shared/Footer/Footer'
 import Header from './Components/Shared/Header/Header'
+import Home from './Components/Home/Home/Home'
 
 function App() {
 
@@ -14,11 +12,10 @@ function App() {
   return (
 <div className='app '>
   <Header></Header>
-  <FirstSection className=''></FirstSection>
-  <SecondSection></SecondSection>
-  <ThirdSection></ThirdSection>
-  <LastSection></LastSection>
-  <Profile></Profile>
+  <Routes>
+    <Route path="/" element={<Home />}></Route>
+    <Route path="/profile" element={<Profile />}></Route>
+  </Routes>
   <Footer></Footer>
 </div>
   )

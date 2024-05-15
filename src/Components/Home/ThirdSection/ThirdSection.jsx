@@ -25,18 +25,19 @@ const ThirdSection = () => {
     }
   };
   return (
-    <div className="px-36 py-20">
+    <div className="md:px-36 py-20">
       <h1 className="first-h1">Schedule</h1>
-      <div className="grid grid-cols-2 gap-20">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+        <div className="">
           <img
+            className="w-full h-auto"
             style={{ width: "495.365px", height: "472.089px" }}
             src={img}
             alt=""
           />
         </div>
         <div>
-          <div className=" flex justify-between pb-10">
+          <div className=" md:flex justify-between pb-10">
             <div className="flex justify-start ">
               <h1 className="first-h1">Day 1- Class </h1>
             </div>
@@ -49,36 +50,32 @@ const ThirdSection = () => {
               </button>
             </div>
           </div>
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={30}
-            loop={true}
-            navigation={{
-              nextEl: ".custom-next",
-              prevEl: ".custom-prev",
-            }}
-            modules={[Pagination, Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide className="flex flex-col text-left">
-              <div className=" ">
-                <img
-                  className="mx-auto"
-                  style={{ width: "475.673px", height: "283.118px" }}
-                  src={img1}
-                  alt=""
-                />
-              </div>
-              <div className="pt-10">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-          </Swiper>
+          <div>
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              loop={true}
+              navigation={{
+                nextEl: ".custom-next",
+                prevEl: ".custom-prev",
+              }}
+              modules={[Pagination, Navigation]}
+              className="mySwiper bg-transparent "
+            >
+              <SwiperSlide className=" text-left ">
+                <div className=" ">
+                  <img className="" src={img1} alt="" />
+                </div>
+                <div className="pt-10 sm:mx-auto">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </div>
