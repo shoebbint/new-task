@@ -12,3 +12,14 @@ line-height: normal;
 .slider-bg{
     background-color: #ede9e6;
 }
+.text-p{
+    color: #4D4D4D;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* Para */
+font-family: "Avenir LT Std";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 156.5%; /* 25.04px */
+}

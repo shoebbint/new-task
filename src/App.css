@@ -11,6 +11,7 @@ body {
 /* In your CSS file */
 @font-face {
   font-family: 'Avenir LT Std';
+  font-variant-numeric: lining-nums tabular-nums;
   src: url('../public/fonts/AvenirLTStd-Light.otf') format('truetype'); /* Adjust the path to your font file */
 }
 

@@ -36,7 +36,7 @@ const LastSection = () => {
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
-            loop={false}
+            loop={true}
             navigation={{
               nextEl: ".custom-next",
               prevEl: ".custom-prev",
@@ -95,7 +95,7 @@ const LastSection = () => {
                   </svg>
                 </div>
                 <div className=" text-left md:col-span-2">
-                  <p>
+                  <p className="text-p">
                     Ashrei Mitra started his journey in yoga at the age of 16.
                     He was chosen by his master Dr. Bharat Thakur from a
                     meditation workshop and has worked with him closely for many
